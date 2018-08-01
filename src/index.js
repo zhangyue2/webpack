@@ -7,4 +7,6 @@ function component() {
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
   return element;
-}
+};
+
+document.body.appendChild(component());
